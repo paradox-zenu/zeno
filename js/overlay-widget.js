@@ -6,7 +6,7 @@ const kofiWidgetOverlayConfig = {
     'floating-chat.core.position.bottom-left': 'position: fixed; bottom: 50px; left: 10px; width: 160px; height: 65px;',
 
     'floating-chat.cssId': '',
-    'floating-chat.notice.text': 'ko-fi.com/%HANDLE%',
+    'floating-chat.notice.text': 'ko-fi.com/zeni_og',
     'floating-chat.donatebutton.image': 'https://storage.ko-fi.com/cdn/cup-border.png',
     'floating-chat.donateButton.background-color': '#00b9fe',
     'floating-chat.donateButton.text': 'Support me',
@@ -540,4 +540,5 @@ var kofiWidgetOverlay = kofiWidgetOverlay || (function () {
     return {
         draw: draw,
     }
+
 }());
